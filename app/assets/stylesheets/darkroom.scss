@@ -1,0 +1,32 @@
+// Place all the styles related to the Darkroom controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	// margin: 0;
+}
+
+header {
+	height: 32px;
+	position: absolute;
+	background-color: #1dc9a8;
+	width: 100%;
+}
+
+.header-logo {
+	font-size: 24px;
+	color: white;
+	padding-left: 20px;
+}
+
+
+.main {
+	position: absolute;
+	top: 32px;	//	headerのheightと同じ
+	width: 100%;
+}
