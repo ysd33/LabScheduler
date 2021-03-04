@@ -1,2 +1,11 @@
+<%= stylesheet_pack_tag 'darkroom/index' %>
+<%= javascript_pack_tag 'darkroom/index' %>
+
 <h1>暗室使用状況</h1>
+
+<%= link_to "", '/',  class: "btn btn--orange btn--circle btn--rightbottom", type: "button", "data-toggle": "modal", "data-target": "#createEventModal" %>
+<%= render partial: "createevent2" %>
+<%= render partial: "showevent" %>
+
 <div id="calendar"></div>
+

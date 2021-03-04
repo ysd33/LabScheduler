@@ -1,0 +1,46 @@
+
+.modal-dialog {
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	max-width: 100%;
+	z-index: 10;
+}
+
+.modal-header {
+	.close {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.btn--rightbottom {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 5;
+}
+
+.btn--orange {
+	// color: white;
+	background-color: #eb6100;
+}
+
+// .btn--orange:hover {
+// 	color: white;
+// 	background-color: #f56500;
+// }
+
+.btn--circle {
+	border-radius: 50%;
+	line-height: 100px;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	box-shadow: 0 5px 5px 16px -6px rgba(0,0,0,0.3);
+}
+
+// .modal-footer {
+// 	height: 
+// }
